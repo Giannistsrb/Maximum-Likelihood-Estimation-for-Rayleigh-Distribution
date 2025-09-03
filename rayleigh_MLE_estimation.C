@@ -17,7 +17,7 @@ double log_likelihood_function(double sum, double sum_square, double product, do
     return log_likelihood;
 }
 
-void ex1_hw2()
+void rayleigh_MLE_estimation()
 {   
     //Determination of the observations and the size N:
     double observations[] = {0.96, 1.12, 0.85, 1.02, 1.58, 1.86, 0.79, 0.82, 0.45, 1.52};
